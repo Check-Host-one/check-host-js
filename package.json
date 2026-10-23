@@ -1,0 +1,17 @@
+{
+  "name": "check-host-one",
+  "version": "1.0.0",
+  "description": "JavaScript/TypeScript client for check-host.one: ping, TCP ping, HTTP, traceroute and DNS checks from 100+ countries",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node example.js" },
+  "keywords": ["check-host", "ping", "traceroute", "dns", "http-check", "uptime", "network", "monitoring", "globalping"],
+  "homepage": "https://check-host.one",
+  "repository": { "type": "git", "url": "git+https://github.com/Check-Host-one/check-host-js.git" },
+  "bugs": "https://github.com/Check-Host-one/check-host-js/issues",
+  "license": "MIT"
+}
